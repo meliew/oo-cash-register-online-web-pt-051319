@@ -22,9 +22,10 @@ class CashRegister
           @items << title
           count += 1
         end
-      else 
+      else
     @items << title
   end
+end
 
   def apply_discount
     return "There is no discount to apply." if @discount == 0
