@@ -35,7 +35,7 @@ end
   end
 
 def void_last_transaction
-@tota - @price
+@total - @price
 
 end
 
