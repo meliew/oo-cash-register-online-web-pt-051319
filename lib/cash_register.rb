@@ -33,6 +33,9 @@ end
     "After the discount, the total comes to $#{@total.to_i}."
   end
 
+def void_last_transaction
+
+end
   def items
     @items
   end
