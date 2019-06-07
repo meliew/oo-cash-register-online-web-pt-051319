@@ -15,6 +15,7 @@ class CashRegister
   end
 
   def add_item(title, price, quantity= 1)
+    @price = price
       @total += price * quantity
       if quantity > 1
         count = 1
@@ -34,10 +35,11 @@ end
   end
 
 def void_last_transaction
-  @items.pop
+
 
 end
+
   def items
-    @items
+    @items - @price
   end
 end
