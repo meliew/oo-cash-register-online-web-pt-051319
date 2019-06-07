@@ -40,6 +40,6 @@ def void_last_transaction
 end
 
   def items
-    @items - @price
+    @items 
   end
 end
